@@ -9,7 +9,10 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Outlet /> {/* This is where child routes like Header will be rendered */}
+      <main className="py-3">
+        <Outlet />
+      </main>
+   
       <Footer />
     </>
   );
