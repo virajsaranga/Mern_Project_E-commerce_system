@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO_URI, {
 .catch(err => console.log(err));
 
 // Routes
-app.get('/', (req, res) => {
+app.get('/', (req, res) => {  
     res.send('Welcome to the MERN E-Commerce Store API');
 });
 
