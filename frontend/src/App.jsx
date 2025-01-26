@@ -5,9 +5,11 @@ import Hero from './components/Hero';
 import Footer from './components/Footer';
 import InstructionsPage from './components/Instruction';
 
+//function
 function App() {
   return (
     <>
+    
       <Header />
       <Hero />
       <InstructionsPage />
