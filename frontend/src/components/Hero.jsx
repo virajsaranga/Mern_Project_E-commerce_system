@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//hero section 
 const Hero = () => {        
     return (
           <div className='hero'>
